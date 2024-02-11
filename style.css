@@ -2,12 +2,9 @@ html {
     background-color: #1E1E1E;
     color: #CCCCCC;
     font-family: 'Consolas';
-    right: 50%;
-    transform: translateX(50%);
-    position: absolute;
 }
 a {
-    color: rgb(127, 200, 255);
+    color: #00aaff;
 }
 a:visited {
     color: aquamarine;
@@ -17,4 +14,16 @@ a:invalid {
 }
 a:active {
     color: rgb(70, 151, 124);
+}
+.center {
+	right: 50%;
+	transform: translateX(50%);
+	position: absolute;
+}
+.bottom {
+	left: 5px;
+	position: fixed;
+	bottom: 5px;
+	width: 100%;
+	color: #757575;
 }
