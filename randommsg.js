@@ -13,7 +13,9 @@ label.innerHTML = messages[random];`,
 	"not educational!",
 	"Fun fact: this random message picker uses only 5 lines of code (excluding the message array)",
 	"Welcome to Gboard clipboard, any text you copy will be saved here.",
-	"i rember ❗"
+	"i rember ❗",
+  "i forgor ❓",
+	"i know your ip address"
 ]
 function randomize() {
 	let random = Math.floor(Math.random() * messages.length);

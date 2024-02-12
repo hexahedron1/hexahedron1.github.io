@@ -1,16 +1,45 @@
+/* AKSDKKJLWFIWOFIOWFIOWFIOWFIOUOIWFUIOUIOWFUIFWUIIUWFUFUIWFW REPLIT YOU ARE A BUNCH OF LITTLE 🐘🐘🐘🐘🐘zanysdfghjk🐘 i guess we have to live with single color
+BRO
+MAKING IT A LEFT OR RIGHT GRADIENT WOULD TECHNICALLY FIX IT
+NO IT WOULDNT!1 ah
+also sideways gradient looks worse imo*/
+@keyframes fadein {
+	0% {
+		background-color: #000;
+	}
+	100% {
+		background-color: #251313;
+	}
+}
 html {
-	background: linear-gradient(to bottom, #251313 0%, #000000 100%);
+  margin: 0;
+	animation: fadein 1s linear;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	background: #251313;
   color: #CCCCCC;
+	text-shadow: 0 0 5px #5e5e5e;
   font-family: 'Consolas';
 }
-a:link {
-    color: #ff4242;
+a {
+  color: #c34141;
+	text-shadow: 0 0 5px #942929;
+
+	transition-property: color text-shadow;
+	transition-duration: 100ms;
+	transition-timing-function: linear;
 }
 a:visited {
-    color: #ff8080;
+  color: #ff8080;
+	text-shadow: 0 0 5px #9b5050;
 }
 a:active {
-    color: #6b391f;
+  color: #6b391f;
+	text-shadow: 0 0 5px #371e10;
+}
+a:hover {
+	color: #ffffff;
+	text-shadow: 0 0 5px #5e5e5e;
 }
 .inactivelink {
 	color: #005c8a;
@@ -43,6 +72,9 @@ button {
 	width: 10cap;
 	height: 3cap;
 	box-shadow: 0 0 5px #9c4444;
+	transition-property: background-color border-color box-shadow;
+	transition-duration: 100ms;
+	transition-timing-function: linear;
 }
 button:hover {
 	background-color: #ff9494;
@@ -53,4 +85,10 @@ button:active {
 	background-color: #862828;
 	border-color: #862828;
 	box-shadow: 0 0 5px #683636;
+}
+button:disabled {
+	color: #2e0000;
+	background-color: #8f3838;
+	box-shadow: 0 0 5px #3c1a1a;
+	
 }
