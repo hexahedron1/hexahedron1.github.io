@@ -1,14 +1,9 @@
-/* AKSDKKJLWFIWOFIOWFIOWFIOWFIOUOIWFUIOUIOWFUIFWUIIUWFUFUIWFW REPLIT YOU ARE A BUNCH OF LITTLE 🐘🐘🐘🐘🐘zanysdfghjk🐘 i guess we have to live with single color
-BRO
-MAKING IT A LEFT OR RIGHT GRADIENT WOULD TECHNICALLY FIX IT
-NO IT WOULDNT!1 ah
-also sideways gradient looks worse imo*/
 @keyframes fadein {
 	0% {
 		background-color: #000;
 	}
 	100% {
-		background-color: #251313;
+		background-color: #261313;
 	}
 }
 html {
@@ -16,7 +11,7 @@ html {
 	animation: fadein 1s linear;
   background-repeat: no-repeat;
   background-attachment: fixed;
-	background: #251313;
+	background: #261313;
   color: #CCCCCC;
 	text-shadow: 0 0 5px #5e5e5e;
   font-family: 'Consolas';
