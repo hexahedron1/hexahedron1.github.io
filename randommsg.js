@@ -15,7 +15,8 @@ label.innerHTML = messages[random];`,
 	"Welcome to Gboard clipboard, any text you copy will be saved here.",
 	"i rember ❗",
   "i forgor ❓",
-	"i know your ip address"
+	"i know your ip address",
+	"Fun fact: the largest file on this website is style.css, which has 123 lines of code"
 ]
 function randomize() {
 	let random = Math.floor(Math.random() * messages.length);

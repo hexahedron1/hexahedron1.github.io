@@ -3,7 +3,7 @@
 		background-color: #000;
 	}
 	100% {
-		background-color: #261313;
+		background-color: #251d1d;
 	}
 }
 html {
@@ -11,13 +11,13 @@ html {
 	animation: fadein 1s linear;
   background-repeat: no-repeat;
   background-attachment: fixed;
-	background: #261313;
+	background: #251d1d;
   color: #CCCCCC;
 	text-shadow: 0 0 5px #5e5e5e;
   font-family: 'Consolas';
 }
 a {
-  color: #c34141;
+  color: #ff8080;
 	text-shadow: 0 0 5px #942929;
 
 	transition-property: color text-shadow;
@@ -25,7 +25,7 @@ a {
 	transition-timing-function: linear;
 }
 a:visited {
-  color: #ff8080;
+  color: #c34141;
 	text-shadow: 0 0 5px #9b5050;
 }
 a:active {
@@ -37,7 +37,7 @@ a:hover {
 	text-shadow: 0 0 5px #5e5e5e;
 }
 .inactivelink {
-	color: #005c8a;
+	color: #371e10;
 	pointer-events: none;
 }
 .center {
@@ -58,6 +58,8 @@ a:hover {
 	color: #757575;
 }
 button {
+	margin-top: 2px;
+	margin-bottom: 2px;
 	color: #750000;
 	background-color: #fe6262;
 	border-width: 3px;
@@ -79,11 +81,58 @@ button:hover {
 button:active {
 	background-color: #862828;
 	border-color: #862828;
-	box-shadow: 0 0 5px #683636;
+	box-shadow: 0 0 10px #683636;
 }
 button:disabled {
 	color: #2e0000;
 	background-color: #8f3838;
 	box-shadow: 0 0 5px #3c1a1a;
+}
+::placeholder {
+	color: #3d0000
+}
+input {
+	color: #750000;
+	background-color: #ffadad;
+	border-width: 3px;
+	border-radius: 3px;
+	border-color: #ffadad;
+	border-style: solid;
+	outline: none;
+	box-shadow: 0 0 5px #9c4444;
+	transition-property: background-color border-color box-shadow color;
+	transition-duration: 100ms;
+	transition-timing-function: linear;
+}
+input text {
+	width: 20cap;
+	height: 2cap;
+}
+input:hover {
+	background-color: #ff9494;
+	border-color: #ff9494;
+	box-shadow: 0 0 5px #9f6060;
+}
+input:invalid text {
+	background-color: #ff4747;
+	border-color: #ff4747;
+	box-shadow: 0 0 25px #683636;
+}
+input:valid text {
+	background-color: #63b81e;
+	border-color: #63b81e;
+	box-shadow: 0 0 40px #3d7312;
+	color: #b9fe81;
 	
+}
+input:disabled {
+	color: #2e0000;
+	background-color: #875e5e;
+	box-shadow: 0 0 5px #875e5e;
+}
+input:checked {
+	background-color: #63b81e;
+	border-color: #63b81e;
+	box-shadow: 0 0 25px #0059ff;
+	color: #b9fe81;
 }
