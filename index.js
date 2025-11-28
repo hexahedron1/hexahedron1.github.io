@@ -8,8 +8,8 @@ const splashes = [
     "splashes[randInt(0, splashes.length)]",
     "Curiosity test: <button onclick=\"alert('You passed the curiosity test')\">Click Here</button>",
     "FREEMOVIESONLINE.COM PLAN FOR $0.99 A MONTH! <a href='https://en.wikipedia.org/wiki/Scam'>SUBSCRIBE</a>",
-    "Super secret page: <a href='supersecretpage/index.html'>link</a>",
-    "<button onclick=\"newSplash()\">Reroll</button>",
+    "<a href='/supersecretpage/index.html'>Mysterious link</a>",
+    "<button onclick=\"document.getElementById('splash').innerHTML = newSplash()\">Reroll</button>",
     "Hi",
     "Assume ideal gas",
     "Non-volatile!",
@@ -47,8 +47,10 @@ function randInt(min, max) {
 }
 function newSplash() {
     if (randInt(0, 1000) == 0)
-        splash.innerHTML = "this splash is very rare"
+        return "this splash is very rare"
     else
-        splash.innerHTML = splashes[randInt(0, splashes.length)]
+        return splashes[randInt(0, splashes.length)]
 }
-newSplash()
+if (splash != null) {
+    splash.innerHTML = newSplash()
+}
