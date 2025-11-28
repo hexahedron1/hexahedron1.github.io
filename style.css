@@ -1,0 +1,26 @@
+html {
+    background-color: #1E1E1E;
+    color: #CCCCCC;
+    font-family: 'Consolas';
+    right: 50%;
+    transform: translate(50%, 100%);
+    position: absolute;
+
+	text-shadow: 0 0 5px #5e5e5e;
+}
+
+a {
+    color: rgb(127, 200, 255);
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+a:invalid {
+    color: rgb(255, 70, 70);
+}
+
+a:active {
+    color: rgb(70, 151, 124);
+}
