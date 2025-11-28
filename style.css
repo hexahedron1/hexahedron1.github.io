@@ -1,26 +1,60 @@
 html {
-    background-color: #1E1E1E;
-    color: #CCCCCC;
-    font-family: 'Consolas';
-    right: 50%;
-    transform: translate(50%, 100%);
+    background-color: #000000;
+    color: rgb(170,170,170);
     position: absolute;
-
-	text-shadow: 0 0 5px #5e5e5e;
+    font-family: 'PxPlus IBM VGA 8x16';
+    line-height: 16px;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
 }
-
+@font-face {
+    font-family: 'PxPlus IBM VGA 8x16';
+    src: url("PxPlus_IBM_VGA_8x16.ttf");
+    font-smooth: never;
+    margin: 2px;
+}
+.highlight {
+    color: #ffffff;
+}
+::selection {
+    background-color: rgb(0,0,170);
+    color: rgb(255,255,85);
+}
 a {
-    color: rgb(127, 200, 255);
+    color: rgb(85,255,255);
+    text-decoration: none;
 }
-
+a.disabled {
+    color: rgb(170,0,0);
+}
+a.disabled:hover {
+    color: rgb(255,85,85);
+}
 a:visited {
-    color: aquamarine;
+    color: rgb(0,170,170);
 }
-
-a:invalid {
-    color: rgb(255, 70, 70);
+a:hover {
+    color: rgb(85,255,255);
 }
-
 a:active {
-    color: rgb(70, 151, 124);
+    color: rgb(85,255,85);
+}
+button {
+    background-color: #000000;
+    border-style: none;
+    color: rgb(0,170,0);
+    font-family: 'PxPlus IBM VGA 8x16';
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+button:hover {
+    color: rgb(85,255,85);
+    cursor: pointer;
+}
+hr {
+    border-width: 1px;
+    border-style: solid;
 }
