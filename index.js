@@ -5,11 +5,19 @@ const splashes = [
     "Made by a single person!",
     "CSS is kinda fun actually",
     "undefined",
-    "splashes[randInt(0, splashes.length-1)]",
+    "splashes[randInt(0, splashes.length)]",
     "Curiosity test: <button onclick=\"alert('You passed the curiosity test')\">Click Here</button>",
     "FREEMOVIESONLINE.COM PLAN FOR $0.99 A MONTH! <a href='https://en.wikipedia.org/wiki/Scam'>SUBSCRIBE</a>",
     "Super secret page: <a href='supersecretpage/index.html'>link</a>",
-    "<button onclick=\"newSplash()\">Reroll</button>"
+    "<button onclick=\"newSplash()\">Reroll</button>",
+    "Hi",
+    "Assume ideal gas",
+    "Non-volatile!",
+    "Consists of 100% CuSO₄",
+    "Join my discord server i post things there sometimes",
+    "i use arch btw",
+    "i wonder if we hypothetically make an LED the size of the sun and power it would it output more light than the sun",
+    "<audio id=\"pibbleshop\" src=\"pibbleshop shopmania bulgaria.mp3\"></audio><button onclick=\"document.getElementById('pibbleshop').play()\">Announcement</button>"
 ]
 splashes[0] = "There are <label style='color: 'rgb(85,255,255)'>"+splashes.length+" total splash messages that can appear here"
 console.log("thorium")
