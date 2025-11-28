@@ -14,12 +14,12 @@ const splashes = [
     "Assume ideal gas",
     "Non-volatile!",
     "Consists of 100% CuSO₄",
-    "Join my discord server i post things there sometimes",
+    "Join <a href=\"https://discord.gg/vGyZmXGnea\">my discord server</a> i post things there sometimes",
     "i use arch btw",
     "i wonder if we hypothetically make an LED the size of the sun and power it would it output more light than the sun",
     "<audio id=\"pibbleshop\" src=\"pibbleshop shopmania bulgaria.mp3\"></audio><button onclick=\"document.getElementById('pibbleshop').play()\">Announcement</button>"
 ]
-splashes[0] = "There are <label style='color: 'rgb(85,255,255)'>"+splashes.length+" total splash messages that can appear here"
+splashes[0] = "There are <label style='color: 'rgb(85,255,255)'>"+(splashes.length+1)+" total splash messages that can appear here"
 console.log("thorium")
 var splash = document.getElementById("splash")
 function randInt(min, max) {
