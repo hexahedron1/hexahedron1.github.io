@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <head>
-    <title>Misc site info</title>
+    <title>Super Secret Blog</title>
     <link href="../../style.css" rel="stylesheet">
+    <link href="../../favicon.png" rel="icon">
 </head>
 <body>
     &lt; <a href="../../index.html">Home</a>/<a href="../index.html">SSP®</a><br>
     <br>
     <label class="highlight">Super Secret Blog</label><br>
-    I might post things to here sometimes.<br><br>
+    I might post things to here sometimes.<br>
+    <label id="rssfeed">RSS feed: </label><br>
+    <br>
+    <script src="index.js"></script>
     <div class="box">
-        Hello world
+        <div id="navbuttons" class="boxheader highlight">
+            ╡<label id="title">Fetching...</label>│<button id="oldestbtn" onclick="setIndex(0)" title="Oldest" disabled="true">|&lt;</button>
+            <button id="prevbtn" onclick='prev()' title="Previous" disabled="true">&lt;</button>
+            <button id="nextbtn" onclick="next()" title="Next" disabled="true">&gt;</button>
+            <button id="lastbtn" onclick="last()" title="Latest" disabled="true">&gt;|</button>╞
+        </div><br>
+        <label id="content">Loading post, please wait</label>
+        <hr>
+        <label id="pubdate"></label>
     </div>
 </body>

@@ -8,7 +8,7 @@ const splashes = [
     "splashes[randInt(0, splashes.length)]",
     "Curiosity test: <button onclick=\"alert('You passed the curiosity test')\">Click Here</button>",
     "FREEMOVIESONLINE.COM PLAN FOR $0.99 A MONTH! <a href='https://en.wikipedia.org/wiki/Scam'>SUBSCRIBE</a>",
-    "<a href='/supersecretpage/index.html'>Mysterious link</a>",
+    "<a href='supersecretpage/index.html'>Mysterious link</a>",
     "<button onclick=\"document.getElementById('splash').innerHTML = newSplash()\">Reroll</button>",
     "Hi",
     "Assume ideal gas",
@@ -42,6 +42,7 @@ const splashes = [
 splashes[0] = "There are <label style='color: 'rgb(85,255,255)'>"+(splashes.length+1)+" total splash messages that can appear here"
 console.log("thorium")
 var splash = document.getElementById("splash")
+var splink = document.getElementById("secrepagelink")
 function randInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -53,4 +54,7 @@ function newSplash() {
 }
 if (splash != null) {
     splash.innerHTML = newSplash()
+}
+if (splink != null && localStorage.getItem("secret-page-unlocked") == "true") {
+    splink.hidden = false
 }

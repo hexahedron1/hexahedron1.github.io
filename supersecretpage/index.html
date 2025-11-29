@@ -2,13 +2,16 @@
 <head>
     <title>Super Secret Page®</title>
     <link href="../style.css" rel="stylesheet">
+    <link href="../favicon.png" rel="icon">
 </head>
 <body>
     &lt; <a href="../index.html">Home</a><br>
     <br>
-    Congratulations! You have found the <label class="highlight"></label>super secret page!</label><br>
+    Congratulations! You have found the <label style="background-image: linear-gradient(to left, #ff00ff, #ffff00); background-clip: text; -webkit-text-fill-color: transparent;">super secret page</label>!<br>
     Hopefully i was worth all the splash refreshing<br>
-    From here you can access some extra informational pages.<br>
+    From here you can access some bonus pages.<br>
     <a href="siteinfo/index.html">Miscellaneous website information</a><br>
     <a href="blog/index.html">Super Secret Blog</a><br>
+    <label style="color: rgb(85,255,85);">This page should now be accessible from the home page</label>
+    <script>localStorage.setItem("secret-page-unlocked", "true"); console.log("e")</script>
 </body>
