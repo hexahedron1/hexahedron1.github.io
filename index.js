@@ -37,7 +37,10 @@ const splashes = [
     "half life 3",
     "cube?????is this ag eometry dash reference>>>>>???????",
     "GEOGRAPHY SMASH IS BETTER!!!!!!!! <i>ONE MORBILLION EXPLOSIONS</i>",
-    "Кабардино-Балкария is my refridgerator"
+    "Кабардино-Балкария is my refridgerator",
+    "mi ne laboras, mi dormas",
+    "mi manĝis 3 kilogramojn da pura uranio",
+    "ĉi tiu splaŝo estas intence skribita en alia lingvo por konfuzi homojn"
 ]
 splashes[0] = "There are <label style='color: 'rgb(85,255,255)'>"+(splashes.length+1)+" total splash messages that can appear here"
 console.log("thorium")
