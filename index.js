@@ -18,7 +18,7 @@ const splashes = [
     "i use arch btw",
     "<audio id=\"pibbleshop\" src=\"pibbleshop shopmania bulgaria.mp3\"></audio><button onclick=\"document.getElementById('pibbleshop').play()\">Announcement</button>",
     "647e Disengaged from workforce",
-    "this website contains no images",
+    "Now with images!",
     "j1407b is not a planet",
     "who the hell is a block_618 anyway",
     "sudo pacman -Sybau",
@@ -40,7 +40,8 @@ const splashes = [
     "Кабардино-Балкария is my refridgerator",
     "mi ne laboras, mi dormas",
     "mi manĝis 3 kilogramojn da pura uranio",
-    "ĉi tiu splaŝo estas intence skribita en alia lingvo por konfuzi homojn"
+    "ĉi tiu splaŝo estas intence skribita en alia lingvo por konfuzi homojn",
+    "mi manĝas insektojn"
 ]
 splashes[0] = "There are <label style='color: 'rgb(85,255,255)'>"+(splashes.length+1)+" total splash messages that can appear here"
 console.log("thorium")
